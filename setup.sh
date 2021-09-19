@@ -1,3 +1,11 @@
+pkg install python
+cp login.py $PREFIX/bin/
+chmod 700 $PREFIX/bin/login.py
+cp login $PREFIX/bin/
+chmod 700 $PREFIX/bin/login
+mkdir /data/data/com.termux/files/usr/share/login/
+clear
+
 read -p "Enter new password: " passone;
 read -p "Repeat password: " passtwo;
 
